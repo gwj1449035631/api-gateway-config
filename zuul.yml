@@ -1,0 +1,9 @@
+zuul:
+  routes:
+    feign-consumer:
+      path: /feign-consumer/**
+      serviceId: feign-consumer
+    demo-service:
+      path: /demo-service/**
+      serviceId: demo-service
+  prefix: /api
